@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shri + Rud Forever Love ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="hearts"></div>
+
+<div id="login">
+
+    <h1>❤️ Shri + Rud ❤️</h1>
+
+    <h2>Forever Love</h2>
+
+    <p>Enter Our Secret Password</p>
+
+    <input
+    type="password"
+    id="password"
+    placeholder="Password">
+
+    <button onclick="checkPassword()">
+        Open Our Love ❤️
+    </button>
+
+    <p id="error"></p>
+
+</div>
+
+
+<div id="website">
+
+<header>
+
+<h1>
+❤️ Shri + Rud Forever Love ❤️
+</h1>
+
+<p>
+Together Since 10 March 2025
+</p>
+
+</header>
+
+<section class="welcome">
+
+<h2>
+Welcome My Love ❤️
+</h2>
+
+<p>
+
+Every memory with you is my favourite memory.
+
+</p>
+
+</section>
+
+<section>
+
+<h2>
+📸 Our Photos
+</h2>
+
+<div class="gallery">
+
+<div class="box">
+Add Photo
+</div>
+
+<div class="box">
+Add Photo
+</div>
+
+<div class="box">
+Add Photo
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>
+🎥 Our Videos
+</h2>
+
+<div class="gallery">
+
+<div class="box">
+Add Video
+</div>
+
+<div class="box">
+Add Video
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>
+🎙 Voice Notes
+</h2>
+
+<div class="gallery">
+
+<div class="box">
+Voice Note
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>
+💌 Our Story
+</h2>
+
+<textarea
+placeholder="Write your beautiful memories here..."></textarea>
+
+</section>
+
+<footer>
+
+Made With ❤️ For Shri
+
+</footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
