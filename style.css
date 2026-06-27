@@ -1,1 +1,43 @@
-/* Style file */
+// Password
+const PASSWORD = "10/03/2025";
+
+function checkPassword() {
+    const input = document.getElementById("password");
+    if (!input) return;
+
+    if (input.value === PASSWORD) {
+        document.getElementById("lock-screen").style.display = "none";
+        document.getElementById("main-content").style.display = "block";
+    } else {
+        alert("Wrong Password ❤️");
+    }
+}
+
+// Love Counter
+const startDate = new Date("2025-03-10");
+
+function updateLoveCounter() {
+    const counter = document.getElementById("love-counter");
+    if (!counter) return;
+
+    const now = new Date();
+    const diff = now - startDate;
+
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    counter.innerHTML = `❤️ Together for ${days} days`;
+}
+
+setInterval(updateLoveCounter, 1000);
+updateLoveCounter();
+
+// Music
+function toggleMusic() {
+    const music = document.getElementById("bgMusic");
+    if (!music) return;
+
+    if (music.paused) {
+        music.play();
+    } else {
+        music.pause();
+    }
+      }/* Style file */
