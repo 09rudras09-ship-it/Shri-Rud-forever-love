@@ -41,3 +41,12 @@ function toggleMusic() {
         music.pause();
     }
       }/* Style file */
+.photo{
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 0 20px rgba(255,0,100,0.4);
+    }
