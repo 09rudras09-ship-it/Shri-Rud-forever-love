@@ -26,6 +26,7 @@ input{
     border-radius:10px;
     border:none;
     margin:10px;
+    font-size:16px;
 }
 
 button{
@@ -53,7 +54,7 @@ button{
 .box{
     width:250px;
     height:150px;
-    border:2px dashed #fff;
+    border:2px dashed white;
     border-radius:15px;
     display:flex;
     justify-content:center;
@@ -65,6 +66,11 @@ textarea{
     width:90%;
     max-width:500px;
     height:150px;
-    border-radius:10px;
     padding:10px;
+    border-radius:10px;
+    border:none;
+}
+
+header, section, footer{
+    margin:20px auto;
 }
