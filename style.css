@@ -74,3 +74,16 @@ textarea{
 header, section, footer{
     margin:20px auto;
 }
+.video{
+
+width:100%;
+
+max-width:350px;
+
+border-radius:20px;
+
+box-shadow:
+0 0 20px
+rgba(255,0,100,0.4);
+
+}
