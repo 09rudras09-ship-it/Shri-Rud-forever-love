@@ -1,53 +1,70 @@
-// Password
-const PASSWORD = "10/03/2025";
-
-function checkPassword() {
-    const input = document.getElementById("password");
-    if (!input) return;
-
-    if (input.value === PASSWORD) {
-        document.getElementById("lock-screen").style.display = "none";
-        document.getElementById("main-content").style.display = "block";
-    } else {
-        alert("Wrong Password ❤️");
-    }
+body{
+    margin:0;
+    padding:0;
+    font-family:'Poppins',sans-serif;
+    background:#111;
+    color:white;
+    text-align:center;
 }
 
-// Love Counter
-const startDate = new Date("2025-03-10");
-
-function updateLoveCounter() {
-    const counter = document.getElementById("love-counter");
-    if (!counter) return;
-
-    const now = new Date();
-    const diff = now - startDate;
-
-    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-    counter.innerHTML = `❤️ Together for ${days} days`;
+#lock-screen{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
 }
 
-setInterval(updateLoveCounter, 1000);
-updateLoveCounter();
+#main-content{
+    display:none;
+    padding:20px;
+}
 
-// Music
-function toggleMusic() {
-    const music = document.getElementById("bgMusic");
-    if (!music) return;
+input{
+    padding:12px;
+    width:250px;
+    border-radius:10px;
+    border:none;
+    margin:10px;
+}
 
-    if (music.paused) {
-        music.play();
-    } else {
-        music.pause();
-    }
-      }/* Style file */
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
 .photo{
-    width: 250px;
-    height: auto;
-    display: block;
-    margin: 20px auto;
-    border-radius: 20px;
-    object-fit: cover;
-    box-shadow: 0 0 20px rgba(255,0,100,0.4);
-    }
-width: 200px;
+    width:250px;
+    height:auto;
+    border-radius:20px;
+    box-shadow:0 0 20px rgba(255,0,100,0.4);
+}
+
+.box{
+    width:250px;
+    height:150px;
+    border:2px dashed #fff;
+    border-radius:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:10px;
+}
+
+textarea{
+    width:90%;
+    max-width:500px;
+    height:150px;
+    border-radius:10px;
+    padding:10px;
+}
