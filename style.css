@@ -140,7 +140,7 @@ opacity:0.5;
 
 0%{
 
-transform:
+:
 translateY(-100px);
 
 }
@@ -152,4 +152,4 @@ translateY(120vh);
 
 }
 
-    }
+}
