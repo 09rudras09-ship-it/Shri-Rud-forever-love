@@ -104,3 +104,52 @@ line-height:1.8;
 font-size:18px;
 
 }
+.hearts{
+
+position:fixed;
+
+width:100%;
+
+height:100%;
+
+top:0;
+
+left:0;
+
+overflow:hidden;
+
+pointer-events:none;
+
+}
+
+.hearts::before{
+
+content:"❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️";
+
+position:absolute;
+
+font-size:30px;
+
+animation:fall 10s linear infinite;
+
+opacity:0.5;
+
+}
+
+@keyframes fall{
+
+0%{
+
+transform:
+translateY(-100px);
+
+}
+
+100%{
+
+transform:
+translateY(120vh);
+
+}
+
+    }
