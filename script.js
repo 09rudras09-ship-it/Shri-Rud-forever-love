@@ -11,7 +11,7 @@ function checkPassword() {
     }
 }
 
-const startDate = new Date("2025-03-10");
+const startDate = new Date("2025-01-25");
 
 function updateLoveCounter() {
     const now = new Date();
